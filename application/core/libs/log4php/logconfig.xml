@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<log4php:configuration xmlns:log4php="http://logging.apache.org/log4php/">
+    <appender name="errorLog" class="LoggerAppenderDailyFile">
+        <param name="file" value="/var/www/tweet/application/logs/file-%s.log" />
+        <param name="datePattern" value="Y-m-d" />
+        <layout class="LoggerLayoutPattern">
+            <param name="ConversionPattern" value="%d{Y-m-d H:i:s} [%p] %c: %m (at %F line %L)%n" />
+        </layout>
+    </appender>
+    <logger name="tweet" additivity="true">
+        <level value="ALL" />
+        <appender_ref ref="errorLog" />
+    </logger>
+</log4php:configuration>

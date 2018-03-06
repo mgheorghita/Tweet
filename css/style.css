@@ -1,0 +1,370 @@
+/*!
+ * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.search-form {
+    border-radius: 30px 0px 0px 30px;
+    /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+}
+/*to cange only one form and not all give unique class name like  class="search-form" */
+.search-btn {
+    border-radius: 0px 30px 30px 0px;
+    cursor:pointer;
+}
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+body {
+    background: #F1F3FA;
+}
+
+/* Profile container */
+.profile {
+    margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    /*-webkit-border-radius: 50% !important;*/
+    /*-moz-border-radius: 50% !important;*/
+    /*border-radius: 50% !important;*/
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+    margin-right: 0px;
+}
+
+.profile-usermenu {
+    margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+    border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+    color: #93a3b5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+    background-color: #fafcfd;
+    color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+    color: #5b9bd1;
+    background-color: #f6f9fb;
+    border-left: 2px solid #5b9bd1;
+    margin-left: -2px;
+}
+
+.content-style {
+    padding: 20px;
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    word-wrap: break-word;
+}
+.icons-bar{
+    font-size: 25px;
+    padding: 3px;
+
+    }
+.fa-heart:hover  {
+    color: red;
+}
+.fa-comment:hover  {
+    color: blue;
+}
+.fa-comment{
+ padding:0 10px;
+}
+
+.img-size{
+    width: 900px;
+}
+.interest-box{
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.newTweets{
+
+   width: 100%;
+    padding-bottom: 5px;
+}
+ .follow, .unfollow {
+    /*float: right;*/
+
+}
+.userList{
+
+    padding: 5px;
+}
+
+.src-image {
+    display: none;
+}
+
+.card {
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #CCC;
+
+    text-align: center;
+    padding: 0;
+    background-color: #fff;
+    color: rgb(136, 172, 217);
+}
+
+.card .header-bg {
+    /* This stretches the canvas across the entire hero unit */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px #FFF solid;
+    /* This positions the canvas under the text */
+    z-index: 1;
+}
+.card .avatar {
+    position: relative;
+    margin-top: 15px;
+    z-index: 100;
+}
+
+.card .avatar img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #FFF;
+
+}
+#defaultImage{
+    margin: 0 auto;
+    /*border: 1px solid #FFF;*/
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-image: url("../img/default_image.png");
+}
+#defaultImageUserList{
+    position: relative;
+    /*border: 1px solid #FFF;*/
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-image: url("../img/default_image.png");
+}
+.ImageUserList{
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+.useravatar{
+    padding: 0;
+    width: 40px;
+}
+.usersFollowingRow{
+    padding-bottom: 15px;
+  }
+
+.followingBtn{
+    float: none;
+}
+.fff{
+    border: 1px solid red;
+
+}
+.jjj{
+    border: 1px solid yellow;
+
+}
+.usersBlock{
+    position: relative;
+    padding: 0;
+}
+.loadMoreUser{
+    width: 99%;
+    margin-left:15px;
+    padding-bottom: 30px;
+
+}
+.card {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    -webkit-border-top-left-radius:5px;
+    -moz-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+}
+.card.hovercard .card-background {
+    height: 130px;
+}
+.card-background img {
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    margin-left: -100px;
+    margin-top: -200px;
+    min-width: 130%;
+}
+.card.hovercard .useravatar {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .useravatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.card.hovercard .card-info {
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .card-info .card-title {
+    padding:0 5px;
+    font-size: 20px;
+    line-height: 1;
+    color: #262626;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.card.hovercard .card-info {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+.btn-pref .btn {
+    -webkit-border-radius:0 !important;
+}
+/*.hidden{*/
+    /*display: none;*/
+/*}*/
+
+.offset-for-md3{
+    margin-left: 37.5%;
+}
+
+.red{
+    color: red;
+}
+.userListLink{
+
+    /*padding: 15px;*/
+}

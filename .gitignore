@@ -1,0 +1,7 @@
+.idea/
+.vagrant/
+images/
+Vagrantfile
+application/core/libs/conf.php
+vendor/
+logs/
